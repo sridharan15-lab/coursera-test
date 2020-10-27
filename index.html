@@ -1,24 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bruno Mikuš - Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-	
-	<title>Module 3 Solution</title>
-</head>
+  </head>
 <body>
-    <header class="nav-header">
+
+ <header id="top">
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
-        <div class="navbar-header">
-          <div class="navbar-brand">
-            <p class="nav-brand">Food, LLC</p>
-          </div>
+        <div class="navbar-header"> 
+          <a class="navbar-brand" href="#">Food, LLC</a>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -27,81 +26,137 @@
         </div>
         
         <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-            <li class="text-center">
-              <a href="#hilsha-div"><p class="item">Hilsa/Ilish curry</p></a>
-              <hr class="visible-xs">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#chicken">Chicken</a>
+            </li>
+            <li>
+              <a href="#beef">Beef</a>
+            </li>
+            <li>
+              <a href="#sushi">Sushi</a>
             </li>            
-            <li class="text-center biryani-item">
-              <a href="#biryani-div"><p class="item">Biryani</p></a>
-              <hr class="visible-xs">
-            </li>
-            <li class="text-center chingri-item">
-              <a href="#chingri-div"><p class="item">Changri malai curry</p></a>
-            </li>
-          </ul> 
-        </div>
-      </div>
-    </nav>
-  	</header>
-
-	<h1 class="text-center">Our Menu</h1>
-
-	<div class="row container container-fluid">
-	<div class="col-md-12 col-sm-12 col-xs-12" id="hilsha-div">
-		<section>
-		<div id="hilsha">
-			Hilsa/Ilish curry
-		</div>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+  
+  <div id="main-content" class="container">
+	<h2 class="text-center">Our Menu</h2>
+	<div class="row">
+		<section id="chicken" class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+		<div class="content-cell">
+		<h3 class="text-center">Chicken</h3>
 		<p>
-			Hilsa (or ilish) curry is the national dish of Bangladesh, made from the Hilsa fish, and is one of the most popular traditional Bangladeshi dishes.
-
-			The Hilsa fish is marinated in turmeric and chili paste, before slowly frying on a low heat and serving with a mustard gravy and rice. The result is a combination of sweet and sour flavours with an incredible spicy kick.
-
-			Aside from being cheap, Hilsa curry is filling, flavoursome, easy to make and widely available due to the amount of Hilsa fish in the region, especially during rainy season. The sheer abundance of the Hilsa fish is why Hilsa Curry is the national dish of Bangladesh.
-
-			In Bangladesh it is common to eat every part of the Hilsa fish including the head and the eggs, nothing is wasted and each part even has its own unique delicacies. You can find fish egg dishes or fish head curries that are widely revered throughout the region.
+		The chicken (Gallus gallus domesticus) is a domesticated fowl, a subspecies of the red junglefowl. As one of the most common and widespread domestic animals, with a population of more than 19 billion in 2011, there are more chickens in the world than any other species of bird or domestic animal. Humans keep chickens primarily as a source of food, consuming both their meat and their eggs.
 		</p>
-		</section>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="biryani-div">
-		<section>
-		<div id="biryani">
-			Biryani
-		</div>
 		<p>
-			Biryani, whilst not unique to Bangladesh, is a spicy rice dish made with meat or fish, rice, potatoes and spices.
-
-			Hugely popular throughout the Indian subcontinent, Bangladeshi biryani is often considered the best in the world.
-
-			In the Bengali region, popular meats include mutton, goat, chicken and beef, but there is such a wide variety of biryani dishes available that you can try.
-
-			A true traditional biryani involves different types of cooking and preparation, as marinated meat is layered with rice, potatoes and spices, the dish is jam packed with flavour.
-
-			You will often find biryani served at special occasions or celebrations such as weddings, but it is also eaten as a regular meal throughout the weak, such is its popularity.
+		Genetic studies have pointed to multiple maternal origins in Southeast-, East-, and South Asia, but with the clade found in the Americas, Europe, the Middle East and Africa originating in the Indian subcontinent. From India, the domesticated chicken was imported to Lydia in western Asia Minor, and to Greece by the fifth century BC. Fowl had been known in Egypt since the mid-15th century BC, with the "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.
 		</p>
-		</section>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="chingri-div">
-		<section>
-		<div id="chingri">
-			Changri malai curry
-		</div>
+
+		<h4>Terminology</h4>
 		<p>
-			Changri malai curry is the most famous Bangladesh curry dish based on coconut milk, and is revered throughout the region, including India.
-
-			Chingri Malai (or Chingri Macher Malaikari as it is sometimes known), is a delicious creamy, satisfying seafood curry that is prepared by cooking prawns or shrimp in a coconut milk sauce with aromatic spices and served with basmati rice. Coconut milk is a very common ingredient in Bangladeshi cuisine, and this Changri Malai curry is a perfect example of that.
-
-			The word Malai suggests the dish was actually brought to the region by Malaysian sailors docking at the Bay of Bengal many years ago, and the use of coconut in curries gives credence to this theory since it is popular in South-East Asian cuisine.
-
-			Bangladeshi cooking is famed for its use of seafood and fish in curries, so Chingri malai is definitely a dish to try if you’re ever in the region.
+		In the UK and Ireland adult male chickens over the age of one year are primarily known as cocks, whereas in America, Australia and Canada they are more commonly called roosters. Males less than a year old are cockerels. Castrated roosters are called capons (surgical and chemical castration are now illegal in some parts of the world). Females over a year old are known as hens and younger females as pullets although in the egg-laying industry, a pullet becomes a hen when she begins to lay eggs at 16 to 20 weeks of age. In Australia and New Zealand (also sometimes in Britain), there is a generic term chook /ˈtʃʊk/ to describe all ages and both sexes. The young are called chicks and the meat is called chicken.
 		</p>
-		</section>
-	</div>
-	</div>
+		<p>
+		"Chicken" originally referred to young domestic fowl. The species as a whole was then called domestic fowl, or just fowl. This use of "chicken" survives in the phrase "Hen and Chickens", sometimes used as a British public house or theatre name, and to name groups of one large and many small rocks or islands in the sea (see for example Hen and Chicken Islands). The word "chicken" is sometimes erroneously construed to mean females exclusively, despite the term "hen" for females being in wide circulation.
+		</p>
+		<p>
+		In the Deep South of the United States chickens are also referred to by the slang term yardbird.
+		</p>
 
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-  	<script src="js/script.js"></script>
+		<h4>General biology and habitat</h4>
+		<p>
+		In some breeds the adult rooster can be distinguished from the hen by his larger comb
+		Chickens are omnivores. In the wild, they often scratch at the soil to search for seeds, insects and even larger animals such as lizards, small snakes or young mice.
+		</p>
+		<p>
+		Chickens may live for five to ten years, depending on the breed. The world's oldest chicken, a hen, died of heart failure at the age of 16 according to Guinness World Records.
+		</p>
+		<p>
+		Roosters can usually be differentiated from hens by their striking plumage of long flowing tails and shiny, pointed feathers on their necks (hackles) and backs (saddle), which are typically of brighter, bolder colours than those of females of the same breed. However, in some breeds, such as the Sebright chicken, the rooster has only slightly pointed neck feathers, the same colour as the hen's. The identification can be made by looking at the comb, or eventually from the development of spurs on the male's legs (in a few breeds and in certain hybrids, the male and female chicks may be differentiated by colour). Adult chickens have a fleshy crest on their heads called a comb, or cockscomb, and hanging flaps of skin either side under their beaks called wattles. Collectively, these and other fleshy protuberances on the head and throat are called caruncles. Both the adult male and female have wattles and combs, but in most breeds these are more prominent in males. A muff or beard is a mutation found in several chicken breeds which causes extra feathering under the chicken's face, giving the appearance of a beard. Domestic chickens are not capable of long distance flight, although lighter birds are generally capable of flying for short distances, such as over fences or into trees (where they would naturally roost). Chickens may occasionally fly briefly to explore their surroundings, but generally do so only to flee perceived danger.
+		</p>
+		<a href="#top">Back To Top</a>
+		</div>
+		</section> <!-- Chicken -->
+		
+		<section id="beef" class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+		<div class="content-cell">
+		<h3 class="text-center">Beef</h3>
+		<p>
+		The chicken (Gallus gallus domesticus) is a domesticated fowl, a subspecies of the red junglefowl. As one of the most common and widespread domestic animals, with a population of more than 19 billion in 2011, there are more chickens in the world than any other species of bird or domestic animal. Humans keep chickens primarily as a source of food, consuming both their meat and their eggs.
+		</p>
+		<p>
+		Genetic studies have pointed to multiple maternal origins in Southeast-, East-, and South Asia, but with the clade found in the Americas, Europe, the Middle East and Africa originating in the Indian subcontinent. From India, the domesticated chicken was imported to Lydia in western Asia Minor, and to Greece by the fifth century BC. Fowl had been known in Egypt since the mid-15th century BC, with the "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.
+		</p>
+
+		<h4>Terminology</h4>
+		<p>
+		In the UK and Ireland adult male chickens over the age of one year are primarily known as cocks, whereas in America, Australia and Canada they are more commonly called roosters. Males less than a year old are cockerels. Castrated roosters are called capons (surgical and chemical castration are now illegal in some parts of the world). Females over a year old are known as hens and younger females as pullets although in the egg-laying industry, a pullet becomes a hen when she begins to lay eggs at 16 to 20 weeks of age. In Australia and New Zealand (also sometimes in Britain), there is a generic term chook /ˈtʃʊk/ to describe all ages and both sexes. The young are called chicks and the meat is called chicken.
+		</p>
+		<p>
+		"Chicken" originally referred to young domestic fowl. The species as a whole was then called domestic fowl, or just fowl. This use of "chicken" survives in the phrase "Hen and Chickens", sometimes used as a British public house or theatre name, and to name groups of one large and many small rocks or islands in the sea (see for example Hen and Chicken Islands). The word "chicken" is sometimes erroneously construed to mean females exclusively, despite the term "hen" for females being in wide circulation.
+		</p>
+		<p>
+		In the Deep South of the United States chickens are also referred to by the slang term yardbird.
+		</p>
+
+		<h4>General biology and habitat</h4>
+		<p>
+		In some breeds the adult rooster can be distinguished from the hen by his larger comb
+		Chickens are omnivores. In the wild, they often scratch at the soil to search for seeds, insects and even larger animals such as lizards, small snakes or young mice.
+		</p>
+		<p>
+		Chickens may live for five to ten years, depending on the breed. The world's oldest chicken, a hen, died of heart failure at the age of 16 according to Guinness World Records.
+		</p>
+		<p>
+		Roosters can usually be differentiated from hens by their striking plumage of long flowing tails and shiny, pointed feathers on their necks (hackles) and backs (saddle), which are typically of brighter, bolder colours than those of females of the same breed. However, in some breeds, such as the Sebright chicken, the rooster has only slightly pointed neck feathers, the same colour as the hen's. The identification can be made by looking at the comb, or eventually from the development of spurs on the male's legs (in a few breeds and in certain hybrids, the male and female chicks may be differentiated by colour). Adult chickens have a fleshy crest on their heads called a comb, or cockscomb, and hanging flaps of skin either side under their beaks called wattles. Collectively, these and other fleshy protuberances on the head and throat are called caruncles. Both the adult male and female have wattles and combs, but in most breeds these are more prominent in males. A muff or beard is a mutation found in several chicken breeds which causes extra feathering under the chicken's face, giving the appearance of a beard. Domestic chickens are not capable of long distance flight, although lighter birds are generally capable of flying for short distances, such as over fences or into trees (where they would naturally roost). Chickens may occasionally fly briefly to explore their surroundings, but generally do so only to flee perceived danger.
+		</p>
+		<a href="#top">Back To Top</a>
+		</div>
+		</section> <!-- Beef -->
+		
+		<section id="sushi" class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+		<div class="content-cell">
+		<h3 class="text-center">Sushi</h3>
+		<p>
+		The chicken (Gallus gallus domesticus) is a domesticated fowl, a subspecies of the red junglefowl. As one of the most common and widespread domestic animals, with a population of more than 19 billion in 2011, there are more chickens in the world than any other species of bird or domestic animal. Humans keep chickens primarily as a source of food, consuming both their meat and their eggs.
+		</p>
+		<p>
+		Genetic studies have pointed to multiple maternal origins in Southeast-, East-, and South Asia, but with the clade found in the Americas, Europe, the Middle East and Africa originating in the Indian subcontinent. From India, the domesticated chicken was imported to Lydia in western Asia Minor, and to Greece by the fifth century BC. Fowl had been known in Egypt since the mid-15th century BC, with the "bird that gives birth every day" having come to Egypt from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.
+		</p>
+
+		<h4>Terminology</h4>
+		<p>
+		In the UK and Ireland adult male chickens over the age of one year are primarily known as cocks, whereas in America, Australia and Canada they are more commonly called roosters. Males less than a year old are cockerels. Castrated roosters are called capons (surgical and chemical castration are now illegal in some parts of the world). Females over a year old are known as hens and younger females as pullets although in the egg-laying industry, a pullet becomes a hen when she begins to lay eggs at 16 to 20 weeks of age. In Australia and New Zealand (also sometimes in Britain), there is a generic term chook /ˈtʃʊk/ to describe all ages and both sexes. The young are called chicks and the meat is called chicken.
+		</p>
+		<p>
+		"Chicken" originally referred to young domestic fowl. The species as a whole was then called domestic fowl, or just fowl. This use of "chicken" survives in the phrase "Hen and Chickens", sometimes used as a British public house or theatre name, and to name groups of one large and many small rocks or islands in the sea (see for example Hen and Chicken Islands). The word "chicken" is sometimes erroneously construed to mean females exclusively, despite the term "hen" for females being in wide circulation.
+		</p>
+		<p>
+		In the Deep South of the United States chickens are also referred to by the slang term yardbird.
+		</p>
+
+		<h4>General biology and habitat</h4>
+		<p>
+		In some breeds the adult rooster can be distinguished from the hen by his larger comb
+		Chickens are omnivores. In the wild, they often scratch at the soil to search for seeds, insects and even larger animals such as lizards, small snakes or young mice.
+		</p>
+		<p>
+		Chickens may live for five to ten years, depending on the breed. The world's oldest chicken, a hen, died of heart failure at the age of 16 according to Guinness World Records.
+		</p>
+		<p>
+		Roosters can usually be differentiated from hens by their striking plumage of long flowing tails and shiny, pointed feathers on their necks (hackles) and backs (saddle), which are typically of brighter, bolder colours than those of females of the same breed. However, in some breeds, such as the Sebright chicken, the rooster has only slightly pointed neck feathers, the same colour as the hen's. The identification can be made by looking at the comb, or eventually from the development of spurs on the male's legs (in a few breeds and in certain hybrids, the male and female chicks may be differentiated by colour). Adult chickens have a fleshy crest on their heads called a comb, or cockscomb, and hanging flaps of skin either side under their beaks called wattles. Collectively, these and other fleshy protuberances on the head and throat are called caruncles. Both the adult male and female have wattles and combs, but in most breeds these are more prominent in males. A muff or beard is a mutation found in several chicken breeds which causes extra feathering under the chicken's face, giving the appearance of a beard. Domestic chickens are not capable of long distance flight, although lighter birds are generally capable of flying for short distances, such as over fences or into trees (where they would naturally roost). Chickens may occasionally fly briefly to explore their surroundings, but generally do so only to flee perceived danger.
+		</p>
+		<a href="#top">Back To Top</a>
+		</div>
+		</section> <!-- Sushi -->
+	</div> <!-- .row -->  
+  </div> <!-- #main-content -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
